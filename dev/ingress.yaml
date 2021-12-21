@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: hello-ingress
   labels:
-    app: myapp
+    app: myapp-argo-application
   annotations:
     ingress.kubernetes.io/ssl-redirect: "false"
     traefik.ingress.kubernetes.io/rewrite-target: /
